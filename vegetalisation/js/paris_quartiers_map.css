@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.quartier-tile {
+  fill: #f9f9f9;
+  stroke: #444;
+  stroke-width: 0.8px; /* Thinner lines for smaller subdivisions */
+  transition: all 0.2s;
+}
+
+.quartier-tile:hover {
+  fill: #e67e22;
+  stroke-width: 2px;
+  cursor: pointer;
+}

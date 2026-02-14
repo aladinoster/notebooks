@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.quartier-tile {
+  stroke: #fff;
+  stroke-width: 0.5px;
+  fill-opacity: 0.8;
+  transition: fill-opacity 0.2s, stroke-width 0.2s;
+}
+
+.quartier-tile:hover {
+  fill-opacity: 1;
+  stroke-width: 2px;
+  stroke: #333;
+  cursor: pointer;
+}
+
+.label-container text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  fill: #333;
+  text-anchor: middle;
+  pointer-events: none;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 2px;
+}

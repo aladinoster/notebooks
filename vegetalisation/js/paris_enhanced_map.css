@@ -1,0 +1,26 @@
+/* Import PT Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.arrondissement-contour {
+  fill: none;
+  stroke: #2c3e50; /* Deep slate color */
+  stroke-width: 2.5px; /* Enhanced contour width via CSS */
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  transition: stroke-width 0.2s, stroke 0.2s;
+}
+
+.arrondissement-contour:hover {
+  stroke: #e67e22; /* Highlight color */
+  stroke-width: 4px;
+  cursor: pointer;
+}
+
+.label-container text {
+  font-family: 'PT Sans', sans-serif; /* Apply PT Sans */
+  font-size: 14px;
+  font-weight: 700;
+  fill: #2c3e50;
+  text-anchor: middle;
+  pointer-events: none;
+}
